@@ -1,0 +1,116 @@
+body{
+    background-attachment: fixed;
+    background-color: #872727;
+  }
+  .main{
+    height: 420px;
+    width: 430px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top:160px;
+    background-color: whitesmoke;
+    border-radius:8px;
+    font-size: 18px;
+    padding: 50px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 10px rgb(40, 39, 39);
+    padding-bottom: 20px;
+  }
+  .main .tittle{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  form{
+    margin-top:45px;
+  }
+  form .inputt{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    margin-top: 25px;
+  }
+  .inputt input{
+    background-color: rgb(227, 225, 225);
+    height: 70%;
+    width: 200%;
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 40px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    border: 1px solid lightgray;
+    margin-left: 20px;
+
+  }
+  .inputt input:focus{
+    border-color: grey;
+  }
+  .inputt input:hover{
+    background-color: rgb(181, 181, 181);
+  }
+  .inputt .icon{
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    color: grey;
+    margin-left: 20px;
+
+  }
+  .check{
+    margin-left:20px;
+  }
+  
+  .check span{
+    font-size: 15px;
+    color: grey;
+  }
+  
+  .button input{
+    width: 440px;
+    color: white;
+    padding-left: 0;
+    background: red;
+    font-weight: 500px;
+    cursor: pointer;
+  }
+  .button input:hover{
+    background-color: rgb(210, 33, 33);
+  }
+  
+ 
+.tab-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    max-width: 550px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow:  5px 5px 10px rgb(40, 39, 39);
+
+}
+.tab-form .tab-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+
+}
+.tab-form .tab-header > div {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: grey;
+
+}
+.tab-form .tab-header > div:hover{
+  background-color: rgb(212, 211, 211);
+}
+.tab-form .tab-header > div.active {
+    border: 1px none grey;
+    
+    background: rgb(212, 211, 211);
+}
